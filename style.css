@@ -99,7 +99,12 @@ button:hover{
 /* Input Styles */
 
     /* Text Input */
-.text__input, .email__input, .search__input, .pass__input, .num__input{
+.text__input, 
+.email__input, 
+.search__input, 
+.pass__input, 
+.num__input,
+.url__input{
     width: fit-content;
     height: fit-content;
     padding: 1.7vh 0.8vw;
