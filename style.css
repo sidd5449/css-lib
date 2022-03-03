@@ -1,0 +1,113 @@
+/* Basic Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+:root{
+    --primary_color: #912f56;
+    --secondary_color: #521945;
+    --background_color: #eaf2ef;
+    --cta_color: #361f27;
+
+}
+body{
+    background-color: var(--background_color);
+}
+/* Typography Styles */
+h1{
+    font-size: 8vw;
+    font-weight: 700;
+    text-decoration: none;
+}
+h2{
+    font-size: 6vw;
+    font-weight: 700;
+    text-decoration: none;
+}
+h3{
+    font-size: 5vw;
+    font-weight: 700;
+    text-decoration: none;
+}
+h4{
+    font-size: 4vw;
+    font-weight: 700;
+    text-decoration: none;
+}
+h5{
+    font-size: 3vw;
+    font-weight: 700;
+    text-decoration: none;
+}
+h6{
+    font-size: 2vw;
+    font-weight: 700;
+    text-decoration: none;
+}
+p{
+    font-size: 1vw;
+    font-weight: 500;
+    text-decoration: none;
+}
+a{
+    font-size: 1vw;
+    color: var(--primary_color);
+    font-weight: 500;
+    text-decoration: underline;
+}
+/* Button Styles */
+button{
+    display: flex;
+    padding: 3.3vh 2.3vw;
+    margin: 1.5vh 1.5vw;
+    color: var(--background_color);
+    cursor: pointer;
+    height: 4vh;
+    width: fit-content;
+    align-items: center;
+    place-content: center;
+    border-radius: 1.5vh;
+    box-shadow: 2px 2px 15px #868686;
+    transition: ease-in 0.2s;
+    border: none;
+}
+.alert__button{
+    background-color: var(--cta_color);
+    
+    
+}
+.primary__button{
+    background: linear-gradient(45deg, var(--primary_color), var(--secondary_color));
+}
+.secondary__button{
+    background-color: var(--secondary_color);
+    
+}
+.outline__button{
+    background:none;
+    border: 0.5px solid var(--primary_color);
+    color: var(--primary_color);
+}
+button:hover{
+    transform: scale(1.1, 1.1);
+    text-decoration: underline;
+    
+}
+/* Input Styles */
+
+    /* Text Input */
+.text__input, .email__input, .search__input, .pass__input, .num__input{
+    width: fit-content;
+    height: fit-content;
+    padding: 1.7vh 0.8vw;
+    border-radius: 8px;
+    border: none;
+    margin: 1.5vh 1.5vw;
+    box-shadow: 1px 1px 25px #cacaca;
+}
+
+
+
