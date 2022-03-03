@@ -113,6 +113,12 @@ button:hover{
     margin: 1.5vh 1.5vw;
     box-shadow: 1px 1px 25px #cacaca;
 }
-
+/* Login Form Styles */
+.login__form{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.2vw;
+}
 
 
